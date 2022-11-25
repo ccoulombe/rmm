@@ -54,6 +54,7 @@ setup(
         "cuda-python>=11.7.1,<12.0",
         "numpy>=1.19",
         "numba>=0.49",
+        "cupy",
     ],
     zip_safe=False,
 )
